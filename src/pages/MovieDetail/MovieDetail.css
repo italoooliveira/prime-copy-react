@@ -1,0 +1,30 @@
+.movie-detail {
+    margin-top: 5em;
+    padding: 0.8em;
+    display: flex;
+    align-items: flex-start;
+}
+
+.movie-detail-thumb{
+    width: 40%;
+    text-align: center;
+}
+
+.movie-detail-thumb img {
+    max-width: 25em;
+}
+
+@media (max-width: 768px) {
+    .movie-detail {
+        display: block;
+    }
+
+    .movie-detail-thumb {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .movie-detail-thumb img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+.movie-detail-text {
+    width: 60%;
+    text-align: left;
+    color: #fff;
+}
+
+.movie-detail-head {
+    display: inline;
+}
+
+.movie-detail-head-title {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .movie-detail-text {
+        width: 100%;
+    }
+}
